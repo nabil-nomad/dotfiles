@@ -15,7 +15,7 @@ alias gs='git status -s'
 alias gco='git checkout'
 alias gc='git commit -m'
 alias vim='nvim'
-alias brew-up='brew update && brew upgrade && brew cleanup'
+alias brew-up='brew update && brew upgrade -y && brew cleanup'
 
 # Git completion
 autoload -Uz compinit && compinit
