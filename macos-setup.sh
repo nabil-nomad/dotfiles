@@ -4,7 +4,7 @@
 set -euo pipefail
 
 DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-BACKUP_DIR="$HOME/.bkp/dotfiles/$(date +%Y%m%d-%H%M%S)"
+BACKUP_DIR="$HOME/.bkp/dotfiles/$(date +%Y-%m-%d_%H-%M)"
 
 # Paths relative to $HOME, symlinked from the repo
 DOTFILES=(
